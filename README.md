@@ -1,1 +1,7 @@
-# beyond-the-spring-tettei-nyumon
+# Beyond the "Spring徹底入門"
+
+1. Cloud Foundryにデプロイ
+2. スケールアウトの確認
+3. 自動復旧の確認
+4. アプリケーションログの転送
+5. セッションレプリケーション
