@@ -5,7 +5,7 @@
 ![image](https://cloud.githubusercontent.com/assets/106908/18636478/f34f0902-7ec3-11e6-9a60-d8824dd9b48b.png)
 
 
-* a. [事前準備](https://github.com/Pivotal-Japan/cf-workshop/blob/master/prerequisite.md)
+* a. [事前準備](rerequisite.md)
 * b. ソースコードの確認
 * 1. Cloud Foundryにデプロイ
 * 2. スケールアウトの確認
