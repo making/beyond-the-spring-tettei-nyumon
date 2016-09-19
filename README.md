@@ -5,10 +5,12 @@
 ![image](https://cloud.githubusercontent.com/assets/106908/18636478/f34f0902-7ec3-11e6-9a60-d8824dd9b48b.png)
 
 
-1. Cloud Foundryにデプロイ
-1. スケールアウトの確認
-1. 自動復旧の確認
-1. アプリケーションログの転送
-1. セッションレプリケーション
+* a. [事前準備](https://github.com/Pivotal-Japan/cf-workshop/blob/master/prerequisite.md)
+* b. ソースコードの確認
+* 1. Cloud Foundryにデプロイ
+* 2. スケールアウトの確認
+* 3. 自動復旧の確認
+* 4. アプリケーションログの転送
+* 5. セッションレプリケーション
 
 
