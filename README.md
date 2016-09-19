@@ -6,7 +6,7 @@
 
 
 * a. [事前準備](rerequisite.md)
-* b. ソースコードの確認
+* b. [ソースコードの確認](checking-sourcecode.md)
 * 1. Cloud Foundryにデプロイ
 * 2. スケールアウトの確認
 * 3. 自動復旧の確認
