@@ -7,7 +7,7 @@
 
 * a. [事前準備](prerequisite.md)
 * b. [ソースコードの確認](checking-sourcecode.md)
-* 1. Cloud Foundryにデプロイ
+* 1. [Cloud Foundryにデプロイ](cf-push.md)
 * 2. スケールアウトの確認
 * 3. 自動復旧の確認
 * 4. アプリケーションログの集約
