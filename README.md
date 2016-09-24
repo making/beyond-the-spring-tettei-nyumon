@@ -13,5 +13,5 @@
 * 4. [アプリケーションログの集約](log-aggregation.md)
 * 5. [セッションのクラスタ化](session-cluster.md)
 * 6. [アプリケーションメトリクスの集約](metrics.md)
-* 7. アプリケーションのゼロダウンタイムアップデート
+* 7. [アプリケーションのゼロダウンタイムアップデート](zero-downtime-update.md)
 
