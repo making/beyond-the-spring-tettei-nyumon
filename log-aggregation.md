@@ -1,9 +1,9 @@
-### アプリケーションのスケールアウト
+### アプリケーションログの集約
 
 * [XI. ログ](https://12factor.net/ja/logs)
 
 
-#### ログの確認
+### ログの確認
 
 ```
 cf logs mrs --recent
@@ -15,7 +15,7 @@ cf logs mrs --recent
 cf logs mrs
 ```
 
-#### 外部に転送
+### 外部に転送
 
 
 [こちら](https://github.com/Pivotal-Japan/cf-workshop/blob/master/logging.md)を参照して、[Logit.io](https://logit.io/)または[Papertrail](https://papertrailapp.com/)のアカウントを作成して、
