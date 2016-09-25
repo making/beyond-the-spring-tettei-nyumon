@@ -1,4 +1,4 @@
-### アプリケーションのスケールアウト
+## アプリケーションのスケールアウト
 
 * [VI. プロセス](https://12factor.net/ja/processes)
 * [VII. ポートバインディング](https://12factor.net/ja/port-binding)
