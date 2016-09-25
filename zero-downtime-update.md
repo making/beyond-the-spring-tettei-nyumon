@@ -43,3 +43,8 @@ OK
 ```
 cf zero-downtime-push mrs -f manifest.yml
 ```
+
+
+```
+while true;do curl -s -q -u admin:admin http://mrs-<random-words>.cfapps.io/admin/env | jq '.systemProperties."java.version"';done
+```
