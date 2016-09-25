@@ -141,7 +141,7 @@ cf create-service p-redis shared-vm mrs-redis
 
 
 ```
-./mvnw clean package
+./mvnw clean package -DskipTests=true
 cf push
 ```
 
