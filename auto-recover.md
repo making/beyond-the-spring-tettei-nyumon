@@ -1,4 +1,4 @@
-### アプリケーションの自動復旧
+## アプリケーションの自動復旧
 
 * [IX. 廃棄容易性](https://12factor.net/ja/disposability)
 
