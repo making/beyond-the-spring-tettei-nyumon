@@ -44,7 +44,6 @@ OK
 cf zero-downtime-push mrs -f manifest.yml
 ```
 
-
-```
-while true;do curl -s -q -u admin:admin http://mrs-<random-words>.cfapps.io/admin/env | jq '.systemProperties."java.version"';done
-```
+> **注意**
+> 
+> `random-route: true`を設定していると、更新後のアプリケーションのURLが変わってします。`name`を一意にすべき。
