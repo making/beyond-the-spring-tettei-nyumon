@@ -1,10 +1,10 @@
-### アプリケーションメトリクスの集約
+## アプリケーションメトリクスの集約
 
-#### コンテナのメトリクス
+### コンテナのメトリクス
 
 [PCF Metrics](https://metrics.run.pivotal.io/)の使い方は[こちら](https://github.com/Pivotal-Japan/cf-workshop/blob/master/pcf-metrics.md)。
 
-#### アプリケーションのメトリクス
+### アプリケーションのメトリクス
 
 Spring ActuatorのメトリクスをRedisに集約する。
 
