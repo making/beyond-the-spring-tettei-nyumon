@@ -9,9 +9,9 @@
 
 ``` diff
  <body>
- <h3>会議室</h3>		 <h3>会議室</h3>
+ <h3>会議室</h3>
 +<h4>Index <span th:text="${T(java.lang.System).getenv('CF_INSTANCE_INDEX')}"></span></h4>
- <a th:href="@{'/rooms/' + ${date.minusDays(1)}}">&lt; 前日</a>		 <a th:href="@{'/rooms/' + ${date.minusDays(1)}}">&lt; 前日</a>
+ <a th:href="@{'/rooms/' + ${date.minusDays(1)}}">&lt; 前日</a>
 ```
 
 `manifest.yml`
