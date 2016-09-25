@@ -14,4 +14,5 @@
 * 5. [セッションのクラスタ化](session-cluster.md)
 * 6. [アプリケーションメトリクスの集約](metrics.md)
 * 7. [アプリケーションのゼロダウンタイムアップデート](zero-downtime-update.md)
+* そしてCloud Native / マイクロサービスへ...
 
