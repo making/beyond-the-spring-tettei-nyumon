@@ -1,8 +1,8 @@
-### セッションのクラスタ化
+## セッションのクラスタ化
 
 * [VI. プロセス](https://12factor.net/ja/processes)
 
-#### Spring Sessionの依存関係追加
+### Spring Sessionの依存関係追加
 
 ``` xml
         <dependency>
@@ -16,7 +16,7 @@
         <dependency>
 ```
 
-#### ローカル環境用の設定
+### ローカル環境用の設定
 
 ローカル開発時にはRedisバックエンドにしない。
 
@@ -102,7 +102,7 @@
   }
 ```
 
-#### Redisサービスインスタンス作成
+### Redisサービスインスタンス作成
 
 Pivotal Web Servicesの場合
 
@@ -118,7 +118,7 @@ PCF Devの場合
 cf create-service p-redis shared-vm mrs-redis
 ```
 
-#### サービスインスタンスのバインド
+### サービスインスタンスのバインド
 
 `manifest.yml`
 
