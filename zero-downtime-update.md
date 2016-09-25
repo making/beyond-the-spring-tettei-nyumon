@@ -1,6 +1,6 @@
-### アプリケーションのゼロダウンタイムアップデート
+## アプリケーションのゼロダウンタイムアップデート
 
-#### Autopilotプラグインのインストール
+### Autopilotプラグインのインストール
 
 [Autopilot](https://github.com/contraband/autopilot/releases)をOSに合わせてダウンロードして、
 
@@ -24,7 +24,7 @@ OK
 プラグイン autopilot v0.0.2 は正常にインストールされました。
 ```
 
-#### JREをアップデートしたbuildpackを指定
+### JREをアップデートしたbuildpackを指定
 
 ``` diff
  applications:
