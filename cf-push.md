@@ -51,7 +51,6 @@ applications:
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.8.1
   path: target/mrs-0.0.1-SNAPSHOT.jar
-  random-route: true
   services:
   - mrs-db
   env:
