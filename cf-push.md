@@ -37,7 +37,7 @@ cf create-service cleardb spark mrs-db
 PCF Devの場合
 
 ```
-cf create-service p-mysql 100mb-dev mrs-db
+cf create-service p-mysql 512mb mrs-db
 ```
 
 ### デプロイ
