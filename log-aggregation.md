@@ -6,13 +6,13 @@
 ### ログの確認
 
 ```
-cf logs mrs --recent
+cf logs mrs-<yourname> --recent
 ```
 
 追跡
 
 ```
-cf logs mrs
+cf logs mrs-<yourname>
 ```
 
 ### 外部に転送
