@@ -125,12 +125,11 @@ cf create-service p-redis shared-vm mrs-redis
 ``` diff
 
  applications:
- - name: mrs
+ - name: mrs-<yourname>
    memory: 512m
    instances: 2
    buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.8.1
    path: target/mrs-0.0.1-SNAPSHOT.jar
-   random-route: true
    services:
    - mrs-db
    - mrs-log
@@ -150,8 +149,8 @@ cf push
 > 以下でもOK
 >
 > ```
-> cf bind-services mrs mrs-redis
-> cf restage mrs
+> cf bind-services mrs-<yourname> mrs-redis
+> cf restage mrs-<yourname>
 > ```
 
 
