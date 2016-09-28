@@ -46,7 +46,7 @@ cf create-service p-mysql 512mb mrs-db
 
 ``` yml
 applications:
-- name: mrs
+- name: mrs-<yourname> # <--- !! Change !!
   memory: 512m
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.8.1
@@ -61,9 +61,9 @@ applications:
 
 ```
 cf push --no-start
-cf set-env SPRING_DATASOURCE_INITIALIZE true # 初回のみ
-cf start
-cf set-env SPRING_DATASOURCE_INITIALIZE false
+cf set-env mrs-<yourname> SPRING_DATASOURCE_INITIALIZE true # 初回のみ
+cf start mrs-<yourname>
+cf set-env mrs-<yourname> SPRING_DATASOURCE_INITIALIZE false
 ```
 
 * [VI. プロセス](https://12factor.net/ja/processes)
@@ -74,11 +74,11 @@ in 12 Factor
 
 Pivotal Web Servicesの場合
 
-`http://mrs-<random>.cfapps.io`
+`http://mrs-<yourname>.cfapps.io`
 
 PCF Devの場合
 
-`http://mrs-<random>.local.pcfdev.io`
+`http://mrs-<yourname>.local.pcfdev.io`
 
 ### Spring Cloud Connectorsを使う
 
