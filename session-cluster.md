@@ -148,6 +148,7 @@ cf push
 > 以下でもOK
 >
 > ```
+> cf push
 > cf bind-services mrs-<yourname> mrs-redis
 > cf restage mrs-<yourname>
 > ```
