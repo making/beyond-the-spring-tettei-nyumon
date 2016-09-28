@@ -28,7 +28,7 @@ OK
 
 ``` diff
  applications:
- - name: mrs
+ - name: mrs-<yourname>
    memory: 680m
 -  instances: 2
 +  instances: 1
@@ -41,9 +41,5 @@ OK
 そのため、ここではインスタンス数を1に減らしているが、これは本質的ではない。
 
 ```
-cf zero-downtime-push mrs -f manifest.yml
+cf zero-downtime-push mrs-<yourname> -f manifest.yml
 ```
-
-> **注意**
-> 
-> `random-route: true`を設定していると、更新後のアプリケーションのURLが変わってします。`name`を一意にすべき。
