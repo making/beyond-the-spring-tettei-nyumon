@@ -12,8 +12,7 @@
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session</artifactId>
-            </dependency>
-        <dependency>
+        </dependency>
 ```
 
 ### ローカル環境用の設定
